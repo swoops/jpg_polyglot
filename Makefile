@@ -16,5 +16,5 @@ uninstall:
 	rm /opt/$(TARGET)
 
 install: $(TARGET)
-	install -o root -g root -m 4111 $(TARGET) /opt/$(TARGET)
+	install -o root -g root -m 555 $(TARGET) /opt/$(TARGET)
 
